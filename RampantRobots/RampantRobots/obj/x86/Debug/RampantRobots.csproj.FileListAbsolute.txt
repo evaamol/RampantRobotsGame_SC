@@ -1,0 +1,6 @@
+/Volumes/EVA II SSD/VisualStudio2017/RampantRobots/RampantRobots/obj/x86/Debug/RampantRobots.csprojAssemblyReference.cache
+/Volumes/EVA II SSD/VisualStudio2017/RampantRobots/RampantRobots/obj/x86/Debug/RampantRobots.csproj.CoreCompileInputs.cache
+/Volumes/EVA II SSD/VisualStudio2017/RampantRobots/RampantRobots/bin/Debug/RampantRobots.exe
+/Volumes/EVA II SSD/VisualStudio2017/RampantRobots/RampantRobots/bin/Debug/RampantRobots.pdb
+/Volumes/EVA II SSD/VisualStudio2017/RampantRobots/RampantRobots/obj/x86/Debug/RampantRobots.exe
+/Volumes/EVA II SSD/VisualStudio2017/RampantRobots/RampantRobots/obj/x86/Debug/RampantRobots.pdb
