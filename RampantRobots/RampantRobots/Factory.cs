@@ -29,7 +29,9 @@ namespace RampantRobots
             this.RobotsMove = robotsMove;
             this.Turns = turns;
             this.NrOfRobots = nrRobots;
-          
+
+            Errorhandling();
+
         }
 
         //Method InitialiseEmptyFactoryGrid 
@@ -169,6 +171,41 @@ namespace RampantRobots
             }
 
         }
+
+        public void Errorhandling()
+        {
+            if (Width >= 50 | Height >= 50)
+            {
+                Console.WriteLine("********************************************************");
+                Console.WriteLine("********************** WARNING *************************");
+                Console.WriteLine("The Width or Height of the game is too large. Change it\nto under 50.");
+                Console.WriteLine("********************** WARNING *************************");
+                Console.WriteLine("********************************************************");
+                Environment.Exit(0);
+            }
+
+            if (Turns <= 0)
+            {
+                Console.WriteLine("*************************************************************");
+                Console.WriteLine("************************ WARNING ****************************");
+                Console.WriteLine("The turns given are negative. Change it to a positive number.");
+                Console.WriteLine("************************ WARNING ****************************");
+                Console.WriteLine("*************************************************************");
+                Environment.Exit(0);
+            }
+
+            if (NrOfRobots >= (Width * Height - 1))
+            {
+                Console.WriteLine("********************************************************");
+                Console.WriteLine("********************** WARNING *************************");
+                Console.WriteLine("Too many number of robots given. Application will close.");
+                Console.WriteLine("********************** WARNING *************************");
+                Console.WriteLine("********************************************************");
+                Environment.Exit(0);
+            }
+        }
+
+
 
     }
 }
